@@ -34,7 +34,7 @@ if __name__ == '__main__':
     root.iconbitmap(
         './resources/a686c9177f3e6709c93db127d88e883df8dcd000ff9b.ico')
     # 设置窗口背景色
-    root['background'] = 'black'
+    root['background'] = 'gray'
 
     CMD = root.register(varileText)
     # 输入---（开仓价格、涨跌倍数、多空方向选择）
